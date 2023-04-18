@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="haNTaC" name="Uhmplugin" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyWebsite="uhmbrella.io" companyName="Uhmbrella" pluginCharacteristicsValue="pluginIsMidiEffectPlugin">
+  <MAINGROUP id="bWmweU" name="Uhmplugin">
+    <GROUP id="{C90D9A40-EC7E-0160-7AFA-7861FFED6AE0}" name="Components">
+      <GROUP id="{FA628F35-0AE8-FE4F-089F-F563E0D759E9}" name="Menus">
+        <FILE id="eCyXN2" name="Summary.cpp" compile="1" resource="0" file="Source/Summary.cpp"/>
+        <FILE id="tWViAJ" name="Summary.h" compile="0" resource="0" file="Source/Summary.h"/>
+        <FILE id="tSB052" name="Stamp.cpp" compile="1" resource="0" file="Source/Stamp.cpp"/>
+        <FILE id="az2t9X" name="Stamp.h" compile="0" resource="0" file="Source/Stamp.h"/>
+        <FILE id="oREnM9" name="MainMenuh.cpp" compile="1" resource="0" file="Source/MainMenuh.cpp"/>
+        <FILE id="HSBZqt" name="MainMenuh.h" compile="0" resource="0" file="Source/MainMenuh.h"/>
+      </GROUP>
+      <GROUP id="{58FCDE23-BD69-9C27-9B2B-46FA23A16A8A}" name="Items">
+        <FILE id="EQ2rE4" name="SampleItem.cpp" compile="1" resource="0" file="Source/SampleItem.cpp"/>
+        <FILE id="ri0lw0" name="SampleItem.h" compile="0" resource="0" file="Source/SampleItem.h"/>
+      </GROUP>
+      <GROUP id="{915E7D07-1564-4D60-B319-A6DDEF30D8EE}" name="LookClasses">
+        <FILE id="BpxkdW" name="ComboxLF.cpp" compile="1" resource="0" file="Source/ComboxLF.cpp"/>
+        <FILE id="SIAhqV" name="ComboxLF.h" compile="0" resource="0" file="Source/ComboxLF.h"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{B0E8CAA0-0222-CBE3-6422-59569105DDDA}" name="Source">
+      <FILE id="UuOL0p" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="k5HCj6" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="VLE1xi" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Vcugci" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Uhmplugin" useRuntimeLibDLL="0"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Uhmplugin" defines="JUCE_MODAL_LOOPS_PERMITTED=1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
